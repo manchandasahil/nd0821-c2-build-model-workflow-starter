@@ -23,11 +23,11 @@ entry_points:
 
       min_price:
         description: minimum house price to remove outliers
-        type: string
+        type: float
 
       max_price:
         description: maximum house price to remove outliers
-        type: string
+        type: float
 
 
     command: >-
