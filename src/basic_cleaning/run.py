@@ -59,7 +59,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--output_artifact", 
         type=str,
-        help="name of the artifact you ",
+        help="name of the artifact output ",
         required=True
     )
 
@@ -87,7 +87,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--max_price", 
         type=float,
-        help="minimum house price to remove outliers",
+        help="maximum house price to remove outliers",
         required=True
     )
 
